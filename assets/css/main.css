@@ -664,17 +664,7 @@ body {
     text-align: center;
 }
 
-#divEntidadLetreroTutor {
-    width: 100px;
-    height: 20px;
-    position: absolute;
-    top: 140px;
-    left: 0px;
-    font-size: 10px;
-}
-
 /*------------///////////////--------------*/
-
 
 #divSeccionDomicilioTutor {
     width: 100%;
@@ -687,37 +677,67 @@ body {
 }
 
 /*------------///////////////--------------*/
-#divRayaEntidadTutor {
-    width: 185px;
-    height: 12px;
+#divLetreroPaisResidenciaPadre {
+    width: 200px;
+    height: 20px;
     position: absolute;
     top: 140px;
-    left: 60px;
+    left: 0px;
     font-size: 10px;
 }
 
-#divMunicipioLetreroTutor {
+#divRayaPaisResidenciaPadre {
+    width: 220px;
+    height: 12px;
+    position: absolute;
+    top: 140px;
+    left: 110px;
+    font-size: 10px;
+}
+
+#divEntidadLetreroTutor {
     width: 100px;
     height: 20px;
     position: absolute;
     top: 140px;
-    left: 260px;
+    left: 370px;
+    font-size: 10px;
+}
+
+#divRayaEntidadPadre {
+    width: 215px;
+    height: 12px;
+    position: absolute;
+    top: 140px;
+    left: 420px;
+    font-size: 10px;
+}
+
+
+/*+++++++++++++++*/
+
+#divMunicipioLetreroTutor {
+    width: 70px;
+    height: 20px;
+    position: absolute;
+    top: 160px;
+    left: 0px;
     font-size: 10px;
 }
 
 #divRayaMunicipioTutor {
-    width: 322px;
+    width: 265px;
     height: 12px;
     position: absolute;
-    top: 140px;
-    left: 315px;
+    top: 160px;
+    left: 70px;
     font-size: 10px;
 }
 
 #divLocalidadLetreroTutor {
     position: absolute;
     top: 160px;
-    left: 0px;
+    left: 350px;
     font-size: 10px;
     width: 60px;
     height: 12px;
@@ -726,11 +746,13 @@ body {
 #divRayaLocalidadTutor {
     position: absolute;
     top: 160px;
-    left: 70px;
+    left: 420px;
     font-size: 10px;
-    width: 567px;
+    width: 215px;
     height: 12px;
 }
+
+/*+++++++++++++++*/
 
 #divDomicilioLetreroTutor {
     position: absolute;
