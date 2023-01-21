@@ -154,7 +154,6 @@ body {
     position: relative;
 }
 
-
 #divCintaAzul01 {
     width: 226px;
     height: 16px;
@@ -196,7 +195,6 @@ body {
     padding-left: 5px;
     padding-top: 2px;
 }
-
 
 #divLetras {
     width: 30px;
@@ -273,8 +271,6 @@ body {
 }
 /*aqui estaba el genero */
 
-
-
 #divFechaNacLetras {
     width: 200px;
     height: 20px;
@@ -344,7 +340,6 @@ body {
     font-size: 10px;
 }
 
-
 #divLetreroTipoSangre {
     position: absolute;
     top: 130px;
@@ -402,7 +397,7 @@ body {
 
 #divRecuadroH {
     width: 13px;
-    height: 15px;
+    height: 13px;
     border: 1px solid #000;
     position: absolute;
     top: 104px;
@@ -420,7 +415,7 @@ body {
 
 #divRecuadroM {
     width: 13px;
-    height: 15px;
+    height: 13px;
     border: 1px solid #000;
     position: absolute;
     top: 104px;
@@ -457,40 +452,7 @@ body {
 
 /*--------inicia 2 cuadro-----------*/
 
-#divLetreroCurpTutor {
-    position: absolute;
-    top: 65px;
-    left: 0px;
-    width: 60px;
-    height: 20px;
-    font-size: 10px;
-}
 
-#divRayaCurpTutor {
-    position: absolute;
-    top: 65px;
-    left: 60px;
-    width: 238px;
-    height: 12px;
-    font-size: 10px;
-}
-
-#divFechaNacLetrasTutor{
-    position: absolute;
-    top: 65px;
-    left: 320px;
-    width: 120px;
-    height: 20px;
-    font-size: 10px;
-}
-#divDatoFechaTutor{
-    position: absolute;
-    top: 65px;
-    left: 455px;
-    width: 180px;
-    height: 12px;
-    font-size: 10px;
-}
 
 /*#divLetrasNombreTutor {
     position: absolute;
@@ -538,13 +500,168 @@ body {
     font-size: 6px;
 }
 
-#divSeccionDomicilioTutor {
-    width: 100%;
-    height: 20px;
+#divLetreroCurpTutor {
     position: absolute;
-    top: 120px;
+    top: 65px;
+    left: 0px;
+    width: 60px;
+    height: 20px;
+    font-size: 10px;
+}
+
+#divRayaCurpTutor {
+    position: absolute;
+    top: 65px;
+    left: 60px;
+    width: 238px;
+    height: 12px;
+    font-size: 10px;
+}
+
+#divFechaNacLetrasTutor{
+    position: absolute;
+    top: 65px;
+    left: 320px;
+    width: 120px;
+    height: 20px;
+    font-size: 10px;
+}
+
+#divDatoFechaTutor{
+    position: absolute;
+    top: 65px;
+    left: 455px;
+    width: 180px;
+    height: 12px;
+    font-size: 10px;
+}
+
+#divPaisDeNacimientoPadre{
+    position: absolute;
+    top: 84px;
+    left: 0px;
+    width: 110px;
+    height: 12px;
+    font-size: 10px;
+}
+
+#divRayaPaisDeNacimientoPadre{
+    position: absolute;
+    top: 84px;
+    left: 120px;
+    width: 150px;
+    height: 12px;
+    font-size: 10px;
+}
+
+#divLetreroNivelEstudiosPadre{
+    position: absolute;
+    top: 84px;
+    left: 310px;
+    width: 110px;
+    height: 12px;
+    font-size: 10px;
+}
+
+#divRayaNivelEstudioPadre{
+    position: absolute;
+    top: 84px;
+    left: 430px;
+    width: 205px;
+    height: 12px;
+    font-size: 10px;
+}
+
+#divViveConElAlumnoPadre {
+    width: 150px;
+    height: 13px;
+    position: absolute;
+    top: 102px;
     left: 0px;
     font-size: 10px;
+}
+
+#divRecuadroSiVivePadre {
+    width: 13px;
+    height: 13px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 102px;
+    left: 160px;
+    text-align: center;
+}
+
+#divLetreroSiPadre {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    top: 102px;
+    left: 180px;
+}
+
+#divRecuadroNoVivePadre {
+    width: 13px;
+    height: 13px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 102px;
+    left: 210px;
+    text-align: center;
+}
+
+#divLetreroNoPadre {
+    width: 15px;
+    height: 13px;
+    position: absolute;
+    top: 102px;
+    left: 230px;
+}
+
+#divAyudaViveConElAlumnoPadre{
+    width: 150px;
+    height: 13px;
+    position: absolute;
+    top: 106px;
+    left: 260px;
+    font-size: 6px;
+}
+
+#divEsTutorPadre{
+    width: 70px;
+    height: 13px;
+    position: absolute;
+    top: 102px;
+    left: 400px;
+    font-size: 10px;
+}
+
+#divRecuadroEsTutor{
+    width: 13px;
+    height: 13px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 102px;
+    left: 480px;
+    text-align: center;
+}
+
+#divEsFinado{
+    width: 70px;
+    height: 13px;
+    position: absolute;
+    top: 102px;
+    left: 530px;
+    font-size: 10px;
+}
+
+#divRecuadroEsFinado{
+    width: 13px;
+    height: 13px;
+    border: 1px solid #000;
+    position: absolute;
+    top: 102px;
+    left: 600px;
+    text-align: center;
 }
 
 #divEntidadLetreroTutor {
@@ -556,6 +673,20 @@ body {
     font-size: 10px;
 }
 
+/*------------///////////////--------------*/
+
+
+#divSeccionDomicilioTutor {
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+/*------------///////////////--------------*/
 #divRayaEntidadTutor {
     width: 185px;
     height: 12px;
@@ -1178,7 +1309,6 @@ body {
     width: 250px;
     height: 20px;
 }
-
 
 #rayaFirmaDirector {
     position: absolute;
