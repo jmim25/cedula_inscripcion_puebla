@@ -1,0 +1,13 @@
+#divCintaAzulTutor {
+    width: 150px;
+    height: 16px;
+    background: #95a79d;
+    text-align: left;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    font-size: 12px;
+    color: #fff;
+    padding-left: 5px;
+    padding-top: 2px;
+}
