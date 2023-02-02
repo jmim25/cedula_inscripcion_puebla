@@ -30,8 +30,38 @@
     height: 12px;
     font-size: 10px;
 }
+/*--------*/
+#divTextoNombreTutor {
+    position: absolute;
+    top: 40px;
+    left: 420px;
+    width: 200px;
+    height: 12px;
+    font-size: 10px;
+    text-align: center;
+}
 
-#divRayaNombreTutor {
+#divTextoAppTutor{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 200px;
+    height: 12px;
+    font-size: 10px;
+    text-align: left;
+}
+
+#divTextoApmTutor{
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    width: 200px;
+    height: 12px;
+    font-size: 10px;
+    text-align: center;
+}
+
+#divRayaNombreCompletoTutor {
     position: absolute;
     top: 40px;
     left: 0;
@@ -41,7 +71,9 @@
     text-align: left;
 }
 
-#divTextoAppTutor {
+
+
+#divTextoAyudaAppTutor {
     width: 130px;
     height: 20px;
     position: absolute;
@@ -50,7 +82,7 @@
     font-size: 6px;
 }
 
-#divTextoApmTutor {
+#divTextoAyudaApmTutor {
     width: 130px;
     height: 20px;
     position: absolute;
@@ -59,7 +91,7 @@
     font-size: 6px;
 }
 
-#divTextoNombTutor {
+#divTextoAyudaNombreTutor {
     width: 130px;
     height: 20px;
     position: absolute;
@@ -67,6 +99,9 @@
     left: 500px;
     font-size: 6px;
 }
+
+
+/*--------*/
 
 #divLetreroCurpTutor {
     position: absolute;
@@ -104,9 +139,18 @@
     font-size: 10px;
 }
 
+#divAyudaFechaTutor{
+    width: 200px;
+    height: 15px;
+    position: absolute;
+    top: 80px;
+    left: 520px;
+    font-size: 5px;
+}
+
 #divPaisDeNacimientoTutor{
     position: absolute;
-    top: 84px;
+    top: 88px;
     left: 0;
     width: 110px;
     height: 12px;
@@ -115,7 +159,7 @@
 
 #divRayaPaisDeNacimientoTutor{
     position: absolute;
-    top: 84px;
+    top: 88px;
     left: 120px;
     width: 150px;
     height: 12px;
@@ -124,7 +168,7 @@
 
 #divLetreroNivelEstudiosTutor{
     position: absolute;
-    top: 84px;
+    top: 88px;
     left: 310px;
     width: 110px;
     height: 12px;
@@ -133,7 +177,7 @@
 
 #divRayaNivelEstudioTutor{
     position: absolute;
-    top: 84px;
+    top: 88px;
     left: 430px;
     width: 205px;
     height: 12px;
@@ -144,7 +188,7 @@
     width: 150px;
     height: 13px;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 0;
     font-size: 10px;
 }
@@ -154,7 +198,7 @@
     height: 13px;
     border: 1px solid #000;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 160px;
     text-align: center;
 }
@@ -163,7 +207,7 @@
     width: 13px;
     height: 13px;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 180px;
 }
 
@@ -172,7 +216,7 @@
     height: 13px;
     border: 1px solid #000;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 210px;
     text-align: center;
 }
@@ -181,7 +225,7 @@
     width: 15px;
     height: 13px;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 230px;
 }
 
@@ -201,7 +245,7 @@
     width: 100%;
     height: 20px;
     position: absolute;
-    top: 120px;
+    top: 125px;
     left: 0;
     font-size: 10px;
     font-weight: bolder;

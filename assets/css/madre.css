@@ -27,8 +27,38 @@
     padding-left: 5px;
     padding-top: 2px;
 }
+/*--------*/
+#divTextoNombreMadre {
+    position: absolute;
+    top: 40px;
+    left: 400px;
+    width: 200px;
+    height: 12px;
+    font-size: 10px;
+    text-align: center;
+}
 
-#divRayaNombreMadre {
+#divTextoAppMadre{
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 200px;
+    height: 12px;
+    font-size: 10px;
+    text-align: left;
+}
+
+#divTextoApmMadre{
+    position: absolute;
+    top: 40px;
+    left: 190px;
+    width: 200px;
+    height: 12px;
+    font-size: 10px;
+    text-align: center;
+}
+
+#divRayaNombreCompletoMadre {
     position: absolute;
     top: 40px;
     left: 0;
@@ -38,7 +68,9 @@
     text-align: left;
 }
 
-#divTextoAppMadre {
+
+
+#divTextoAyudaAppMadre {
     width: 130px;
     height: 20px;
     position: absolute;
@@ -47,7 +79,7 @@
     font-size: 6px;
 }
 
-#divTextoApmMadre {
+#divTextoAyudaApmMadre {
     width: 130px;
     height: 20px;
     position: absolute;
@@ -56,7 +88,7 @@
     font-size: 6px;
 }
 
-#divTextoNombMadre {
+#divTextoAyudaNombreMadre {
     width: 130px;
     height: 20px;
     position: absolute;
@@ -64,6 +96,9 @@
     left: 500px;
     font-size: 6px;
 }
+
+
+/*--------*/
 
 #divLetreroCurpMadre {
     position: absolute;
@@ -101,9 +136,18 @@
     font-size: 10px;
 }
 
+#divAyudaFechaMadre{
+    width: 200px;
+    height: 15px;
+    position: absolute;
+    top: 80px;
+    left: 520px;
+    font-size: 5px;
+}
+
 #divPaisDeNacimientoMadre{
     position: absolute;
-    top: 84px;
+    top: 88px;
     left: 0;
     width: 110px;
     height: 12px;
@@ -112,7 +156,7 @@
 
 #divRayaPaisDeNacimientoMadre{
     position: absolute;
-    top: 84px;
+    top: 88px;
     left: 120px;
     width: 150px;
     height: 12px;
@@ -121,7 +165,7 @@
 
 #divLetreroNivelEstudiosMadre{
     position: absolute;
-    top: 84px;
+    top: 88px;
     left: 310px;
     width: 110px;
     height: 12px;
@@ -130,7 +174,7 @@
 
 #divRayaNivelEstudioMadre{
     position: absolute;
-    top: 84px;
+    top: 88px;
     left: 430px;
     width: 205px;
     height: 12px;
@@ -141,7 +185,7 @@
     width: 150px;
     height: 13px;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 0;
     font-size: 10px;
 }
@@ -151,7 +195,7 @@
     height: 13px;
     border: 1px solid #000;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 160px;
     text-align: center;
 }
@@ -160,7 +204,7 @@
     width: 13px;
     height: 13px;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 180px;
 }
 
@@ -169,7 +213,7 @@
     height: 13px;
     border: 1px solid #000;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 210px;
     text-align: center;
 }
@@ -178,7 +222,7 @@
     width: 15px;
     height: 13px;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 230px;
 }
 
@@ -195,7 +239,7 @@
     width: 70px;
     height: 13px;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 400px;
     font-size: 10px;
 }
@@ -205,7 +249,7 @@
     height: 13px;
     border: 1px solid #000;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 480px;
     text-align: center;
 }
@@ -214,7 +258,7 @@
     width: 70px;
     height: 13px;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 530px;
     font-size: 10px;
 }
@@ -224,7 +268,7 @@
     height: 13px;
     border: 1px solid #000;
     position: absolute;
-    top: 102px;
+    top: 106px;
     left: 600px;
     text-align: center;
 }
@@ -235,7 +279,7 @@
     width: 100%;
     height: 20px;
     position: absolute;
-    top: 120px;
+    top: 125px;
     left: 0;
     font-size: 10px;
     font-weight: bolder;
