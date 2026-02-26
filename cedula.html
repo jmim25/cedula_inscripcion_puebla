@@ -27,21 +27,30 @@
 			text-align: center;
 		}
 		
-		.divInternoDatosPadres {IDC	Nombre	Grupo	ApPaterno	ApMaterno	NomPila	Matricula	MatriculaExterna	Sexo	FNac	CURP	CicloIngreso	SegmentoCobranza	RefBancaria	Email	EmailP	EmailMA	TelCasa	NIA	Genero	FechadeNacimiento	Pais_de_nacimiento1	MunicipioAlumno	EntidadAlumno	LocalidadAlumno	TipoDeSangre	DomicilioAlumno	ColoniaAlumno	CodigoPostalAlumno	TelefonoAlumno	CelularAlumno	EmailAlumno	LenguaMaterna	DiscapacidadAptitud	CURPTutor	fecha_nacimiento	Pais_de_nacimiento	ApellidoPaternoTutor	ApellidoMaternoTutor	NombredelTutor	Pais_residencia	EntidadTutor	MunicipioTutor	LocalidadTutor	ColoniaTutor	CPTutor	Calle	Num__Interior	Num__Exterior	TelefonosdelTutorLocal	TelefonoDelTutorTrabajo	Ext_Tutor_Trabajo	TelefonoDelTutorCelular	TelefonoDelTutorOtro	EmailTutor	Email_del_Trabajo_del_Pad	OcupacionTutor	NivelDeEstudios	Horario_ocupacion	Vive_con_el_alumno2	Es_tutor2	Es_finado2	CURPMadre	Fecha_nacimiento_madre	Pais_de_nacimiento2	ApellidoPaternoMadre	ApellidoMaternoMadre	NombreMadre	Pais_de_residencia	EntidadMadre	MunicipioMadre	LocalidadMadre	ColoniaMadre	CPMadre	Calle1	Num__interior1	Num__exterior1	TelefonosMadre	TelefonoDeMadreTrabajo	Ext_Madre_Trabajo	TelefonoDeMadreCelular	TelefonoDeMadreOtro	EmailMadre	Email_del_Trabajo_de_Madr	OcupacionMadre	NivelDeEstudiosMadre	Horario_ocupacion1	Vive_con_el_alumno3	Es_tutor3	Es_finado3	CURP_del_Guardian	Fecha_nacimiento1_Guardia	Pais_de_nacimiento3_Guard	Parentesco_Guardian	Apellido_Paterno_Guardian	Apellido_Materno_Guardian	Nombre1_Guardian	Pais_Residencia1_Guardian	Entidad_Guardian	Municipio_Guardian	Localidad_Guardian	Colonia_Guardian	CP_Guardian	Calle_Guardian	Num__Interior2	Num__Exterior2	Tel__Local__con_lada_Guar	Tel_Trabajo_Guardian	Ext_Guardian_Trabajo	TelefonoDeGuardianCelular	TelefonoDeGuardianOtro	Email_Guardian	Email_del_Trabajo_Guardia	Ocupacion_Guardian	NivelDeEstudiosGuardian	Horario_ocupacion_Guardia	Parentesco_Alumno_2doTut	Vive_con_el_alumno4	Nacionalidad	EntidadFedRegistro	MunicipioRegistro	AnioRegistro	ActaDeNacimiento	NoDeLibro	NoDeActa	CRIP	DocumentoMigratorio	NoRegistroNalExt	DocumentoNatSRE	FolioCarta	FichaSignaletica	NoJuzgado	FolioFecha	MedDolorCabeza	MedDolorOido	MedDolorEstomago	MedDolorDientes	MedFiebre	AlumnoAlergicoA	NombreEmergencia	TelefonoEmergenciaLocal	TelefonoEmergenciaCelular	ParentescoEmergencia	NumPolizaSeguro
-
+		.divInternoDatosPadres {
 			width: 96%;
 			height: 100%;
 			margin-left: 10px;
 			position: relative;
 		}
+
+		#recuadro00 {
+			width: 100%;
+			height: 80px;
+		}
 		
 		#recuadro01 {
 			width: 664px;
-			height: 70px;
+			height: 80px;
 			/*border: 1px solid #000;*/
 			position: relative;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-end;
+			justify-content: center;
+			padding-right: 20px;
 		}
-		
+
 		#recuadro02 {
 			width: 664px;
 			height: 160px;
@@ -120,28 +129,35 @@
 		}
 		
 		#img00 {
-			position: absolute;
-			top: 5px;
-			left: 20px;
+			position: relative;
+			align-content: flex-start;
+			margin-top: 20px;
+			margin-left: 20px;
+			width: 200px;
 		}
-		
+
+		#divLetras2026{
+			position: absolute;
+			top: 30px;
+			left: 280px;
+			font-size: 14px;
+			text-align: right;
+
+		}
+
 		#divLetrero00 {
 			font-size: 16px;
-			position: absolute;
-			top: 14px;
-			left: 150px;
 			font-weight: bold;
 			letter-spacing: 1px;
+			text-align: right;
 		}
 		
 		#divLetras00 {
 			font-size: 12px;
-			width: 80%;
 			height: 20px;
 			/*border: 1px solid #000;*/
-			position: absolute;
-			top: 45px;
-			left: 120px;
+			display: flex;
+			align-items: center;
 		}
 		
 		.titulosTOP {
@@ -152,7 +168,7 @@
 		#divCiclo {
 			border-bottom: 1px solid #000;
 			height: 15px;
-			width: 200px;
+			width: 150px;
 			text-align: center;
 		}
 		
@@ -199,7 +215,22 @@
 			padding-top: 2px;
 		}
 		
-		#divCintaAzul03 {
+		/*#divCintaAzul03 {
+			auto: 190px;
+			height: 16px;
+			background: #5f1b2d;
+			text-align: left;
+			position: absolute;
+			top: 5px;
+			left: 0;
+			font-size: 12px;
+			color: #fff;
+			padding-left: 5px;
+			padding-right: 15px;
+			padding-top: 2px;
+		}*/
+
+		.divCintaAzul03 {
 			auto: 190px;
 			height: 16px;
 			background: #5f1b2d;
@@ -2833,8 +2864,15 @@
 </head>
 <body>
   <div class="divTodo">
+	  <div id="recuadro00">
+		  <img src="assets/images/logo_sep_2026.png " id="img00" alt="logo">
+		  <div id="divLetras2026">
+			  <p>DIRECCIÓN GENERAL DE PLANEACIÓN Y DEL SISTEMA PARA<br>
+				  LA CARRERA DE LAS MAESTRAS Y DE LOS MAESTROS<br>
+				  DIRECCIÓN DE CONTROL ESCOLAR</p>
+		  </div>
+	  </div>
 	  <div id="recuadro01">
-		  <img src="assets/images/logo_sep.png" id="img00" width="110">
 		  <div id="divLetrero00">CEDULA DE REGISTRO Y ACTUALIZACIÓN DE DATOS</div>
 		  <div id="divLetras00">
 			  <div class="titulosTOP">CICLO ESCOLAR:</div>
@@ -3126,7 +3164,7 @@
 	</div>
 	<div id="recuadro07">
 		<div id="divInterno07">
-			<div id="divCintaAzul03">DOCUMENTO PROBATORIO</div>
+			<div class="divCintaAzul03">DOCUMENTO PROBATORIO</div>
 
 			<!--<div id="divNacidAluLetrero">NACIONALIDAD:</div>
 			<div id="divRayaNacidAlu" class="subrayado"></div>-->
@@ -3190,7 +3228,7 @@
 	</div>
 	<div id="recuadro09">
 	  <div id="divInterno09">
-		<div id="divCintaAzul03">DATOS DE LA ESCUELA</div>
+		<div class="divCintaAzul03">DATOS DE LA ESCUELA</div>
 		<div id="divLetreroNombreEscuela">NOMBRE ESCUELA:</div>
 		<div id="divRayaNombreEscuela" class="subrayado">INSTITUTO JUAREZ LINCOLN</div>
 		<!--		-->
